@@ -383,7 +383,7 @@ color:coral;
   overflow: hidden;
   
   background-color: black;
-  padding:15px;
+  padding:12px;
 
 }
 
@@ -425,3 +425,76 @@ color:coral;
   background-color: var(--bg-in-color);
 }
 
+/* ! messaging msg top z index  */
+
+/* ****************888 messaging msg *************** */
+
+.Msg-focused{
+  background-color: var(--bg-in-color);
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  border-radius: var(--border-radius);
+  border-bottom: 2px solid var(--border-and-bg-color);
+  color: var(--border-and-bg-color);
+  cursor: pointer;
+}
+
+.Msg-other{
+  background-color: var(--bg-in-color);
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  border-radius: var(--border-radius);
+  border-bottom: 2px solid var(--border-and-bg-color);
+  color: var(--border-and-bg-color);
+  cursor: pointer;
+}
+
+
+.Msg-box{
+  position: relative;
+  overflow: hidden;
+  
+  background-color:var(--bg-out-color);
+  padding:10px;
+
+}
+
+.Msg-box::before{
+  content: '';
+  position: absolute;
+  bottom:0px;
+  right:  0;
+  width: 75%;
+  height: 1.5px; /* Border height */
+ background-color: var(--bg-in-color);
+
+}
+
+
+.Msg-box:hover {
+  background-color: var(--bg-in-color);
+ cursor: pointer;
+
+}
+
+.Msg-col{
+  
+    background-color:var(---bg-out-color) ;
+    overflow: hidden;
+    padding:10px;
+    border-radius:var(--border-radius);
+    color: white;
+    border: 2px solid var(--bg-in-color);
+  }
+
+  .Msg-col2{
+  
+    background-color:var(---bg-out-color) ;
+    overflow: hidden;
+ 
+    border-radius:var(--border-radius);
+    color: white;
+    border: 2px solid var(--bg-in-color);
+  }

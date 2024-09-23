@@ -7,6 +7,7 @@ import { Notificationn } from './Pages/Notificationn';
 import { Jobs } from './Pages/Jobs';
 import { Network } from './Pages/Network';
 import { Messaging } from './Pages/Messaging';
+import { MessagingMsg } from './Components/Allz-indexbox/MessagingMsg';
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
     <Route path="/messaging" element={<Messaging/>}></Route> 
     <Route path="/my-network" element={<Network/>}></Route>
      </Routes>
+
+     <MessagingMsg/>
+     
    </>
     
   );
